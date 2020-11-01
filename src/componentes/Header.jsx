@@ -1,9 +1,14 @@
 import React from 'react'
+import '../assets/styles/componentes/Header.scss'
+import logo from '../assets/imagenes/logo_header.png'
+import cesta from '../assets/imagenes/cesta_header.png'
 
 const Header = ()=>(
 
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">P&D</a>
+    <nav className="sticky-top navbar navbar-expand-md navbar-light bg-light">
+        <a className="navbar-brand" href="#">
+            <img className="logo_header" src={logo} alt="home"/>
+        </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
@@ -22,7 +27,17 @@ const Header = ()=>(
                 <li className="nav-item">
                     <a className="nav-link" href="#">EVENTOS</a>
                 </li>
+                <li className="nav-item pt-2 d-block d-md-none">
+                    <a className="nav-link" href="#">
+                    <img className="cesta_menu_desplegable" src={cesta} alt="cesta"/>
+                    </a>
+                </li>
             </ul>
+            <form class="form-inline my-2 my-lg-0 d-none d-sm-none d-md-block">
+                <a href="#">
+                    <img className="cesta_header" src={cesta} alt="cesta"/>
+                </a>
+            </form>
         </div>
     </nav>
 
