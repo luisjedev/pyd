@@ -1,0 +1,14 @@
+
+.carousel{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    white-space: nowrap;
+  }
+
+
+.carousel_row{
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+}

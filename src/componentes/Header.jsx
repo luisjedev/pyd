@@ -9,7 +9,7 @@ const Header = ()=>(
         <a className="navbar-brand" href="#">
             <img className="logo_header" src={logo} alt="home"/>
         </a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler boton_menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
 
@@ -33,7 +33,7 @@ const Header = ()=>(
                     </a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0 d-none d-sm-none d-md-block">
+            <form className="form-inline my-2 my-lg-0 d-none d-sm-none d-md-block">
                 <a href="#">
                     <img className="cesta_header" src={cesta} alt="cesta"/>
                 </a>

@@ -1,0 +1,18 @@
+.CarouselItem{
+    width: 228px;
+    height: 319px;
+}
+
+.CarouselItem_img{
+    border-top: 2px solid #e6e6e6!important;
+    padding: 20px;
+    width: 228px;
+    height: 319px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.CarouselItem:hover{
+    cursor: pointer;
+}
+
+
